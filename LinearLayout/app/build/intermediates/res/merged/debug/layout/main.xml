@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="春风十里"
+    android:gravity="center"
+    android:background="#aaffff"
+    android:singleLine="true"
+    android:padding="10dip"
+    android:layout_weight="2"
+    android:fontFamily="sans-serif"
+    android:textColor="@android:color/background_dark"
+    android:textSize="24sp" />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="不如你"
+        android:gravity="center"
+    android:textSize="10pt"
+    android:background="#ffffaa"
+    android:padding="17dip"
+    android:layout_weight="1.38"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>
